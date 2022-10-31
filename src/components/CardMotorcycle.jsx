@@ -8,7 +8,7 @@ import './styles/styles.css'
 
 const CardMotorcycle = ({motorcycle, setUpdateList, updateList, handleCloseModal, handleOpenModal, setDataModal}) => {
 
-    const URL = "http://localhost:8000/api/"
+    const URL = "https://motoscba.herokuapp.com/api/"
 
     const handleDelete = async () => {
 

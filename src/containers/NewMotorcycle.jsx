@@ -19,7 +19,7 @@ const NewMotorcycle = () => {
         })
     }
 
-    const URL = "http://localhost:8000/api/"
+    const URL = "https://motoscba.herokuapp.com/api/"
 
     const handleSubmit = async (e) => {
         e.preventDefault();

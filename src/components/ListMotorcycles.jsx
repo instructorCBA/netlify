@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 
 const ListMotorcycles = () => {
 
-    const URL = "http://localhost:8000/api/"
+    const URL = "https://motoscba.herokuapp.com/api/"
     
     const getData = async () => {
         const response = axios.get(URL);
